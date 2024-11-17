@@ -1,0 +1,11 @@
+# پوشه‌های node
+node_modules/
+
+# فایل‌های محیطی
+.env
+
+# همه فایل‌های درون پوشه uploads
+uploads/*
+
+# استثنا کردن فایل .gitkeep در پوشه uploads/books
+!uploads/books/.gitkeep
